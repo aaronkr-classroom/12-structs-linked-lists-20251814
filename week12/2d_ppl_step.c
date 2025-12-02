@@ -34,7 +34,7 @@ int main(void) {
 
 	printf("\n\n연령별 평균 윗몸 일으키기 횟수\n");
 
-	for (ages = 0; ages < 3; ages++) {
+	for (ages = 0; ages < age_step; ages++) {
 		sum = 0;
 		printf("%d0대: ", ages + 2);
 		for (member = 0; member < *(p_limit_table + ages); member++) {
